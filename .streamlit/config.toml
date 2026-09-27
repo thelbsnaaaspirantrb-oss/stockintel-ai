@@ -1,0 +1,33 @@
+# .streamlit/config.toml
+# StockIntel AI — Streamlit theme & server configuration
+
+[theme]
+# Base dark theme
+base                = "dark"
+
+# Brand accent — deep electric blue
+primaryColor        = "#00C4FF"
+
+# Dark backgrounds
+backgroundColor     = "#0D1117"
+secondaryBackgroundColor = "#161B22"
+
+# Text
+textColor           = "#E6EDF3"
+
+# Font
+font                = "sans serif"
+
+[browser]
+# Show "Made with Streamlit" is fine — no need to hide
+gatherUsageStats = false
+
+[server]
+# Prevents the app from auto-opening a browser tab on every run
+headless = true
+# Maximum upload size (MB) — useful if we add CSV upload later
+maxUploadSize = 10
+
+[runner]
+# Avoids "ScriptRunContext" warnings in newer Streamlit versions
+fastReruns = true
