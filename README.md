@@ -233,26 +233,6 @@ This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) 
 
 ---
 
-## 🙏 Original Project / Acknowledgment
-
-**StockIntel AI** is a substantially enhanced fork of
-**[ModelHub](https://github.com/BadakalaYashwanth/ModelHub)**
-by **[BadakalaYashwanth](https://github.com/BadakalaYashwanth)**.
-
-The original ModelHub project provided the foundational data pipeline
-(yfinance fetching with rate-limit mitigation), the LSTM preprocessing
-pipeline, and the core Streamlit application structure that StockIntel AI
-builds upon.
-
-> Original repository: https://github.com/BadakalaYashwanth/ModelHub  
-> Original license: MIT License — copyright remains with BadakalaYashwanth.  
-> The MIT License text and original copyright notice are preserved in the
-> [`LICENSE`](LICENSE) file in this repository, as required by the license terms.
-
-We are grateful to BadakalaYashwanth for open-sourcing ModelHub and making
-this work possible.
-
----
 
 > Built with ❤️ by [Rohan Bondre](https://github.com/RohanBondre)  
 > Computer Engineering Graduate · Software Development · Backend Development · AI/ML
